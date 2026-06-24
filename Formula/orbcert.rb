@@ -5,6 +5,7 @@ class Orbcert < Formula
   sha256 "99e53297836c36e35efd10c78da658eca86d165179364e8c8426fba808fff9bc"
   license "MIT"
 
+  depends_on :macos
   depends_on "go" => :build
   depends_on "kubernetes-cli"
 
